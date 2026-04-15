@@ -1,0 +1,11 @@
+Package: com.yourname.gamemenuui
+Name: GameMenuUI
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Native floating game menu UI (UIKit)
+Author: You
+Section: Tweaks
+# แก้ตรงนี้ให้เป็น Bundle ID ของ app ที่ต้องการ inject
+Filter:
+  Bundles:
+    - com.target.app.bundleid
