@@ -831,7 +831,7 @@ static GMMenuViewController *_sharedController;
     [UIView animateWithDuration:0.18 animations:^{
         self->_container.transform = CGAffineTransformMakeScale(0.90f, 0.90f);
         self->_container.alpha = 0;
-    } completion:^(BOOL done) {
+    } completion:^(BOOL _unsed done) {
         [GMMenuWindow sharedWindow].hidden = YES;
     }];
 }
